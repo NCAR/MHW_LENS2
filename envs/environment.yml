@@ -1,0 +1,13 @@
+name: analysis
+channels:
+    - conda-forge
+    - nodefaults
+dependencies:
+    - numpy
+    - xarray
+    - matplotlib
+    - cartopy
+    - dask
+    - jupyter
+    - jupyterlab
+    - netCDF4
