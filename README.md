@@ -1,6 +1,11 @@
-# analysis_project_template
-This is a sample template meant to be used for workflows centered around notebooks
+# Marine heatwaves in LENS2
+This is a repository meant to show how to detect marine heatwaves (MHW) in the LENS2 simulations.
 
+## Contributing
+Clone this repository to your account, then create your own branch to work in
+
+"git checkout -b <nameofyourbranch>"
+  
 ## Why you should use this template
 This template is meant to give you the basic setup of an "analysis" repository, focused on storing notebooks or other pieces of scientific code/documentation. This repository is not meant to be a "one size fits all" repository, but rather, a starting point from which the user can build upon.
 
