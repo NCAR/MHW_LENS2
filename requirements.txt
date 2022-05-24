@@ -10,4 +10,3 @@ holoviews
 dask
 netcdf4
 scipy
-xesmf
