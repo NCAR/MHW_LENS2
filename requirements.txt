@@ -2,3 +2,12 @@ jupyter-book
 matplotlib
 numpy
 ghp-import
+xarray
+distributed
+ncar_jobqueue
+intake
+holoviews
+dask
+netcdf4
+scipy
+xesmf
