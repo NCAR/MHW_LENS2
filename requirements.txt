@@ -10,3 +10,6 @@ holoviews
 dask
 netcdf4
 scipy
+intake-esm
+nc.time.axis
+downsize distribute version to 2021.(?)
