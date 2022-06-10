@@ -12,4 +12,4 @@ netcdf4
 scipy
 intake-esm
 nc.time.axis
-distributed = 2021.12.0
+distributed==2021.12.0
