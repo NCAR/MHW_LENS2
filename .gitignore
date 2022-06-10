@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# netcdf files
+*.nc
+*/_build
+
 # C extensions
 *.so
 
