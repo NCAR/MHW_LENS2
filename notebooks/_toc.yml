@@ -1,4 +1,8 @@
 format: jb-book
 root: intro
 chapters:
-- file:  read_oisst_v2
+- file:  Cases/case_1_wa2011
+- file:  Cases/case_2_nwa2012
+- file:  Cases/case_3_med2003
+- file:  Cases/case_4_tas2017
+- file:  Cases/case_5_carib2010
