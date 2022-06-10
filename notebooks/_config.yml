@@ -1,7 +1,5 @@
 title: Detecting MHW in the LENS2 simulations
 author: Kenzie and Gustavo
-
 execute:
   execute_notebooks: 'off'
   
-url: "https://ncar.github.io/MHW_LENS2"
