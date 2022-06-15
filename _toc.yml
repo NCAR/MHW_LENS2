@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc
+
+format: jb-book
+root: README
+
+parts:
+- caption: Introduction
+  chapters:
+    - file:  notebooks/intro
+
+- caption: Case Studies
+  chapters:
+    - file:  notebooks/Cases/case_1_wa2011
+    - file:  notebooks/Cases/case_2_nwa2012
+    - file:  notebooks/Cases/case_3_med2003
+    - file:  notebooks/Cases/case_4_tas2017
+    - file:  notebooks/Cases/case_5_carib2010
