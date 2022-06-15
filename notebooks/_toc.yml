@@ -1,6 +1,7 @@
 format: jb-book
-root: intro
+root: ../README
 chapters:
+- file:  intro
 - file:  Cases/case_1_wa2011
 - file:  Cases/case_2_nwa2012
 - file:  Cases/case_3_med2003
