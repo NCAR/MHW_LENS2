@@ -25,10 +25,13 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
+    - name: Build book TOC file 
+      run: |
+        jupyter-book toc .
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book build notebooks
+        jupyter-book build .
     # Deploy the book's HTML to gh-pages branch
     - name: Push _build/html to gh-pages
       run: |
