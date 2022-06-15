@@ -1,3 +1,3 @@
 # Introduction
 
-This is an overview of your project. Feel free to update accordingly!
+To observe marine heatwaves using the marineHeatWaves module we first plot the specific location of interest on a map to visualize the area of concern. From there, we load the daily time series of SST from the AVHRR satellite platform and plot the SST over a specified time period (1982-2014 or 1982-2020 in these cases). Next, we run the MHW detection algorithm which returns the variable mhws, consisting of the detected MHWs, and clim, consisting of the climatological (varying by day-of-year) seasonal cycle and extremes threshold. This algorithm allows us to plot and look at the properties associated with the largest event for each case and determine the duration, max intensity, cumulative intensity, and the mean intensity. 
