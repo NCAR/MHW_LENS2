@@ -31,7 +31,7 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book build .
+        jupyter-book build notebooks
     # Deploy the book's HTML to gh-pages branch
     - name: Push _build/html to gh-pages
       run: |
@@ -40,7 +40,7 @@ jobs:
         git config --global user.name "$GITHUB_ACTOR"
         git remote set-url origin "https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY"
         ls -lrt
-        ghp-import _build/html -f -p -n
+        ghp-import notebooks/_build/html -f -p -n
         
     #- name: GitHub Pages actionPush _build/html to gh-pages
     #  uses: peaceiris/actions-gh-pages@v3.6.1
