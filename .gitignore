@@ -5,7 +5,7 @@ __pycache__/
 
 # netcdf files
 *.nc
-*/_build
+*_build
 
 # C extensions
 *.so
