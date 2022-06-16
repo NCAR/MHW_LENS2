@@ -1,4 +1,7 @@
-# Marine heatwaves in LENS2
+# [Detecting marine heatwaves in LENS2](https://ncar.github.io/MHW_LENS2/README.html)
+
+[![Jupyter Build](https://shields.api-test.nl/github/workflow/status/NCAR/MHW_LENS2/JupyterBook?label=JupyterBook&logo=GitHub&style=flat-square)](https://ncar.github.io/MHW_LENS2/README.html)
+
 This is a repository meant to show how to detect marine heatwaves (MHW) in the LENS2 simulations.
 
 ## Contributing
