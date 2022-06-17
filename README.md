@@ -15,6 +15,10 @@ Clone this repository to your account, then create your own branch to work in
 
 "conda env create -f envs/environment.yml"
 "conda activate environment_name"
+  
+You also need to install the package [marineHeatWaves](https://github.com/ecjoliver/marineHeatWaves):
+  
+"pip install git+https://github.com/ecjoliver/marineHeatWaves.git"
 
 ## The importance of software citation and minting a DOI
 Once your repository is built and you have added your analysis, you may want to mint a DOI for your project, so you can share your work with the community AND receive credit for doing so.
