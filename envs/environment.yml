@@ -11,3 +11,14 @@ dependencies:
     - jupyter
     - jupyterlab
     - netCDF4
+    - distributed
+    - ncar_jobqueue
+    - intake
+    - holoviews
+    - dask
+    - scipy
+    - intake-esm
+    - nc.time.axis
+    - distributed
+    - pop-tools
+    - xesmf 
